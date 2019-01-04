@@ -37,7 +37,7 @@ func goType(t TypeInfo) reflect.Type {
 	case TypeDouble:
 		return reflect.TypeOf(*new(float64))
 	case TypeInt:
-		return reflect.TypeOf(*new(int))
+		return reflect.TypeOf(*new(int32))
 	case TypeSmallInt:
 		return reflect.TypeOf(*new(int16))
 	case TypeTinyInt:

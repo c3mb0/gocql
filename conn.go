@@ -19,8 +19,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gocql/gocql/internal/lru"
-	"github.com/gocql/gocql/internal/streams"
+	"github.com/c3mb0/gocql/internal/lru"
+	"github.com/c3mb0/gocql/internal/streams"
 )
 
 var (
